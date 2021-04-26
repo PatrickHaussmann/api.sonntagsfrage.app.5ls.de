@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "rewrites": [{ "source": "/", "destination": "/api/history" }],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "https://wahl.app.5ls.de"
+                }
+            ]
+        }
+    ]
+}
