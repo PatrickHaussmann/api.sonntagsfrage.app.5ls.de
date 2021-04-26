@@ -7,7 +7,7 @@
             "headers": [
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://wahl.app.5ls.de"
+                    "value": "https://sonntagsfrage.app.5ls.de"
                 }
             ]
         }
