@@ -4,7 +4,7 @@ const { JSDOM } = jsdom;
 
 module.exports = async (req, res) => {
 
-    const response = await axios.get("https://www.wahlrecht.de/umfragen/dimap.htm");
+    const response = await axios.get("https://www.wahlrecht.de/umfragen/forsa.htm");
 
     const dom = new JSDOM(response.data);
     var htmlDoc = dom.window.document;
